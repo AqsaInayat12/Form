@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Registration</h2>
+   <form action="">
+    <fieldset class="Form">
+        <br>
+        <legend>User registration form:</legend>
+        <div> 
+            <label for="Name">Enter Full Name:</label>
+            <input type="text" name="Name" id="Name">
+        </div>
+        <br>
+        <div> 
+            <label for="Email">Enter Email:</label>
+            <input type="email" name="Email" id="Email">
+        </div>
+        <br>
+        <div>
+         <label for="Course">Select Course Language</label>
+         <select class="select">
+             <optgroup label="Select">
+                 <option class="option" value="C++">C++</option>
+                 <option class="option" value="Python">Python</option>
+                 <option class="option" value="Javascript">JavaScript</option>
+                 <option class="option" value="Java">Java</option>
+                 <option class="option" value="ReactJS">ReactJS</option>
+                </optgroup>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="password">Enter Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br>
+        <div> 
+            <label for="password">Confirm Password:</label>
+            <input type="password" name="password" id="password"></div>
+            <br>
+           <div>
+            <label for="gender">Enter your Gender:</label>
+            <br>
+            <input class="radiobtn" type="radio" name="gender" id="gender">Male
+            <br>
+            <input class="radiobtn" type="radio" name="gender" id="gender">Female
+            <br>
+            <input class="radiobtn" type="radio" name="gender" id="gender">Other
+           </div>
+           <br>
+        <div >
+            <label for="dob">Date Of Birth:</label>
+            <input class="dob" type="date" name="dob" id="dob">
+        </div>
+       <br>
+       <div>
+        <!-- <label for="">Remember me</label> -->
+        <input type="checkbox" name="remember" id="remember">Remember me
+       </div>
+       <br>
+       <div class="button">
+        <input class="button1" type="submit" value="Submit">
+        <input class="button1" type="reset" value="Reset">
+       </div>
+       <br>
+       <div class="p">
+        <p>Already have an account <a href="login.html">Login</a></p>
+       </div>
+        
+    </fieldset>
+   </form>
+</body>
+</html>

@@ -1,0 +1,87 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+   
+}
+body{
+   background-image: url(./Assets/download\ \(4\).jpeg);
+   background-size: cover;
+   /* background-position: top; */
+   background-repeat: no-repeat;
+}
+.Form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 40%;
+   height: 50%;
+  
+   color: purple;
+}
+h2{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin-top: 50px;
+   color: rgb(82, 13, 147);
+}
+.login{
+   margin-top: 100px;
+}
+form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.select{
+   color: white;
+   background-color: rgb(185, 153, 188);
+}
+.option{
+   background-color:white;
+   color: black;
+}
+.dob{
+   background-color:  rgb(185, 153, 188);
+   border-radius: 8px;
+   border: none;
+   width: 150px;
+   height: 25px;
+   color: aliceblue;
+}
+
+
+a{
+   font-weight: bold;
+}
+.button1{
+   background-color: rgb(206, 86, 219);
+   color: aliceblue;
+   width: 70px;
+   height: 20px;
+   border-radius: 8px;
+   border: none;
+   outline: none;
+   margin: 5px;
+   padding: 10px;
+   padding-bottom: 20px;
+   position: relative;
+}
+.button1:hover{
+   cursor: pointer;
+   color: rgb(10, 10, 78) ;
+   background-color: rgb(120, 28, 91);
+  
+   
+}
+.p{
+   color: rgb(74, 9, 60);
+}
